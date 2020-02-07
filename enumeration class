@@ -1,0 +1,13 @@
+enum class Race {
+	Dinan,
+	Teklan,
+	Ivyn,
+	Moiran,
+	Camite,
+	Julian,
+	Aidan
+};
+
+// to initialize an enumeration variable to a value, use the name of the type followed by two colons :: and the desired value
+
+Race langobard_race = Race::Aidan; //declare the variable langobard_race and initialize value to Aidan

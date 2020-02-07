@@ -1,0 +1,16 @@
+//switch statements
+
+switch(condition) {
+	case(case-a): {
+		//handle case a here
+		} break;
+	case(case-b) : {
+		//handle case b here
+		} break;
+		//handle other conditions as desired
+	default : {
+		//handle the default case here
+		}
+}
+
+	

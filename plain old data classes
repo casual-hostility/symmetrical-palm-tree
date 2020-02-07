@@ -1,0 +1,30 @@
+/*classes are user-defined types that contain data and functions
+the simplest kind of classes are plain old data classes (PODs)
+PODs are simple containers. Every POD begins with the keyword struct followed by the PODs desired name
+*/
+
+struct Book { //declaring the Book variable, type is POD (struct)
+	char name[256];
+	int year;
+	int pages;
+	bool hardcover;
+};
+
+//Book contains a char array called name, and int year, an int pages and a bool hardcover
+
+//declaring POD variables
+
+#include <cstdio>
+
+struct Book { 
+	char name[256];
+	int year;
+	int pages;
+	bool hardcover;
+};
+
+int main() {
+	Book neuromancer;
+	neuromancer.pages = 271;
+	printf("Neuromancer has %d pages.", neuromancer.pages;
+}
